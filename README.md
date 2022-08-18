@@ -21,24 +21,26 @@
 
 ## Data Dictionary
 
-Jan 	January
-Feb	    February
-Mar	    March
-Apr	    April
-May	    May
-Jun	    June
-Jul	    July
-Aug	    August
-Sep	    September
-Oct	    October
-Nov	    November
-Dec	    December
-CPI	Consumer     Price Index
-HALF1	    CPI average for first half of corresponding year.
-HALF2	    CPI average for second half of corresponding year.
-Annual	    CPI average of corresponding year.
-Year	    Year in numeric format
-year_month	    Time format as Year and month
+| Feature    | Description                                        |
+|------------|----------------------------------------------------|
+| Jan        | January                                            |
+| Feb        | February                                           |
+| Mar        | March                                              |
+| Apr        | April                                              |
+| May        | May                                                |
+| Jun        | June                                               |
+| Jul        | July                                               |
+| Aug        | August                                             |
+| Sep        | September                                          |
+| Oct        | October                                            |
+| Nov        | November                                           |
+| Dec        | December                                           |
+| CPI        | Consumer Price Index                               |
+| HALF1      | CPI average for first half of corresponding year.  |
+| HALF2      | CPI average for second half of corresponding year. |
+| Annual     | CPI average of corresponding year.                 |
+| Year       | Year in numeric format                             |
+| year_month | Time format as Year and month                      |
 
 
 ### Libraries and files used
