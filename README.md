@@ -42,33 +42,33 @@ year_month	    Time format as Year and month
 
 
 ### Libraries and files used
-'''
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import statsmodels.api as sm
 
-# import files
+- import files
 import acquire
-# working with dates
+- working with dates
 from datetime import datetime
 
-# to evaluated performance using rmse
+- to evaluated performance using rmse
 from sklearn.metrics import mean_squared_error
 from math import sqrt 
 
 
-# holt's linear trend model. 
+- holt's linear trend model. 
 from statsmodels.tsa.api import Holt
 
+- setting up plot figure
 plt.rc('figure', figsize=(13, 7))
-# plt.style.use('seaborn-whitegrid')
 plt.rc('font', size=16)
 plt.rc('figure', figsize=(13, 7))
 plt.rc('font', size=16)
 
-'''
+
 
 ## Steps to Reproduce
 
